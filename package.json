@@ -1,0 +1,25 @@
+{
+  "name": "npmignore-defaults",
+  "version": "1.0.0",
+  "description": "Default values for a simple .npmignore file to keep your package clean of unnecessary stuff",
+  "main": "src/postinstall.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "postinstall": "node src/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necccc/npmignore-defaults.git"
+  },
+  "keywords": [
+    "npmignore", "defaults", "publish", "authoring"
+  ],
+  "author": "nec@shell8.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/necccc/npmignore-defaults/issues"
+  },
+  "homepage": "https://github.com/necccc/npmignore-defaults#readme"
+}
